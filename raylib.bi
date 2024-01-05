@@ -29,6 +29,7 @@
     #inclib "opengl32"
     #inclib "gdi32"
     #inclib "winmm"
+    #inclib "shell32"
 #endif
 
 extern "C"
@@ -1398,5 +1399,28 @@ declare sub AttachAudioStreamProcessor(byval stream as AudioStream, byval proces
 declare sub DetachAudioStreamProcessor(byval stream as AudioStream, byval processor as AudioCallback)
 declare sub AttachAudioMixedProcessor(byval processor as AudioCallback)
 declare sub DetachAudioMixedProcessor(byval processor as AudioCallback)
+
+'' rcamera.h
+
+#define RCAMERA_H
+
+#define CAMERA_CULL_DISTANCE_NEAR   RL_CULL_DISTANCE_NEAR
+#define CAMERA_CULL_DISTANCE_FAR    RL_CULL_DISTANCE_FAR
+
+declare function GetCameraForward(byval cam as Camera ptr) as Vector3
+declare function GetCameraUp(byval cam as Camera ptr) as Vector3
+declare function GetCameraRight(byval cam as Camera ptr) as Vector3
+
+declare sub CameraMoveForward(byval cam as Camera ptr, byval distance as single, byval moveInWorldPlane as boolean)
+declare sub CameraMoveUp(byval cam as Camera ptr, byval distance as single)
+declare sub CameraMoveRight(byval cam as Camera ptr, byval distance as single, byval moveInWorldPlane as boolean)
+declare sub CameraMoveToTarget(byval cam as Camera ptr, byval delta as single)
+
+declare sub CameraYaw(byval cam as Camera ptr, byval angle as single, byval rotateAroundTarget as boolean)
+declare sub CameraPitch(byval cam as Camera ptr, byval angle as single, byval lockView as boolean, byval rotateAroundTarget as boolean, byval rotateUp as boolean)
+declare sub CameraRoll(byval cam as Camera ptr, byval angle as single)
+
+declare function GetCameraViewMatrix(byval cam as Camera ptr) as Matrix
+declare function GetCameraProjectionMatrix(byval cam as Camera ptr, byval aspect as single) as Matrix
 
 end extern
