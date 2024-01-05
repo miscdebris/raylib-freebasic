@@ -24,7 +24,7 @@ Examples using raylib core platform functionality like window creation, inputs, 
 
 | ## | example  | image  | difficulty<br>level | version<br>created | last version<br>updated | original<br>developer | Ported |
 |----|----------|--------|:-------------------:|:------------------:|:------------------:|:----------:|:----------|
-| 01 | [core_basic_window](core/core_basic_window.c) | <img src="core/core_basic_window.png" alt="core_basic_window" width="80"> | ⭐️☆☆☆ | 1.0 | 1.0 | [Ray](https://github.com/raysan5) | No |
+| 01 | [core_basic_window](core/core_basic_window.bas) | <img src="core/core_basic_window.png" alt="core_basic_window" width="80"> | ⭐️☆☆☆ | 1.0 | 1.0 | [Ray](https://github.com/raysan5) | Yes |
 | 02 | [core_input_keys](core/core_input_keys.c) | <img src="core/core_input_keys.png" alt="core_input_keys" width="80"> | ⭐️☆☆☆ | 1.0 | 1.0 | [Ray](https://github.com/raysan5) | No |
 | 03 | [core_input_mouse](core/core_input_mouse.c) | <img src="core/core_input_mouse.png" alt="core_input_mouse" width="80"> | ⭐️☆☆☆ | 1.0 | **4.0** | [Ray](https://github.com/raysan5) | No |
 | 04 | [core_input_mouse_wheel](core/core_input_mouse_wheel.c) | <img src="core/core_input_mouse_wheel.png" alt="core_input_mouse_wheel" width="80"> | ⭐️☆☆☆ | 1.1 | 1.3 | [Ray](https://github.com/raysan5) | No |
@@ -83,49 +83,49 @@ Examples using raylib shapes drawing functionality, provided by raylib [shapes](
 
 Examples using raylib textures functionality, including image/textures loading/generation and drawing, provided by raylib [textures](../src/textures.c) module.
 
-| ## | example  | image  | difficulty<br>level | version<br>created | last version<br>updated | original<br>developer |
-|----|----------|--------|:-------------------:|:------------------:|:------------------:|:----------|
-| 47 | [textures_logo_raylib](textures/textures_logo_raylib.c) | <img src="textures/textures_logo_raylib.png" alt="textures_logo_raylib" width="80"> | ⭐️☆☆☆ | 1.0 | 1.0 | [Ray](https://github.com/raysan5) |
-| 48 | [textures_srcrec_dstrec](textures/textures_srcrec_dstrec.c) | <img src="textures/textures_srcrec_dstrec.png" alt="textures_srcrec_dstrec" width="80"> | ⭐️⭐️⭐️☆ | 1.3 | 1.3 | [Ray](https://github.com/raysan5) |
-| 49 | [textures_image_drawing](textures/textures_image_drawing.c) | <img src="textures/textures_image_drawing.png" alt="textures_image_drawing" width="80"> | ⭐️⭐️☆☆ | 1.4 | 1.4 | [Ray](https://github.com/raysan5) |
-| 50 | [textures_image_generation](textures/textures_image_generation.c) | <img src="textures/textures_image_generation.png" alt="textures_image_generation" width="80"> | ⭐️⭐️☆☆ | 1.8 | 1.8 | [Ray](https://github.com/raysan5) |
-| 51 | [textures_image_loading](textures/textures_image_loading.c) | <img src="textures/textures_image_loading.png" alt="textures_image_loading" width="80"> | ⭐️☆☆☆ | 1.3 | 1.3 | [Ray](https://github.com/raysan5) |
-| 52 | [textures_image_processing](textures/textures_image_processing.c) | <img src="textures/textures_image_processing.png" alt="textures_image_processing" width="80"> | ⭐️⭐️⭐️☆ | 1.4 | 3.5 | [Ray](https://github.com/raysan5) |
-| 53 | [textures_image_text](textures/textures_image_text.c) | <img src="textures/textures_image_text.png" alt="textures_image_text" width="80"> | ⭐️⭐️☆☆ | 1.8 | **4.0** | [Ray](https://github.com/raysan5) |
-| 54 | [textures_to_image](textures/textures_to_image.c) | <img src="textures/textures_to_image.png" alt="textures_to_image" width="80"> | ⭐️☆☆☆ | 1.3 | **4.0** | [Ray](https://github.com/raysan5) |
-| 55 | [textures_raw_data](textures/textures_raw_data.c) | <img src="textures/textures_raw_data.png" alt="textures_raw_data" width="80"> | ⭐️⭐️⭐️☆ | 1.3 | 3.5 | [Ray](https://github.com/raysan5) |
-| 56 | [textures_particles_blending](textures/textures_particles_blending.c) | <img src="textures/textures_particles_blending.png" alt="textures_particles_blending" width="80"> | ⭐️☆☆☆ | 1.7 | 3.5 | [Ray](https://github.com/raysan5) |
-| 57 | [textures_npatch_drawing](textures/textures_npatch_drawing.c) | <img src="textures/textures_npatch_drawing.png" alt="textures_npatch_drawing" width="80"> | ⭐️⭐️⭐️☆ | 2.0 | 2.5 | [Jorge A. Gomes](https://github.com/overdev) |
-| 58 | [textures_background_scrolling](textures/textures_background_scrolling.c) | <img src="textures/textures_background_scrolling.png" alt="textures_background_scrolling" width="80"> | ⭐️☆☆☆ | 2.0 | 2.5 | [Ray](https://github.com/raysan5) |
-| 59 | [textures_sprite_anim](textures/textures_sprite_anim.c) | <img src="textures/textures_sprite_anim.png" alt="textures_sprite_anim" width="80"> | ⭐️⭐️☆☆ | 1.3 | 1.3 | [Ray](https://github.com/raysan5) |
-| 60 | [textures_sprite_button](textures/textures_sprite_button.c) | <img src="textures/textures_sprite_button.png" alt="textures_sprite_button" width="80"> | ⭐️⭐️☆☆ | 2.5 | 2.5 | [Ray](https://github.com/raysan5) |
-| 61 | [textures_sprite_explosion](textures/textures_sprite_explosion.c) | <img src="textures/textures_sprite_explosion.png" alt="textures_sprite_explosion" width="80"> | ⭐️⭐️☆☆ | 2.5 | 3.5 | [Ray](https://github.com/raysan5) |
-| 62 | [textures_bunnymark](textures/textures_bunnymark.c) | <img src="textures/textures_bunnymark.png" alt="textures_bunnymark" width="80"> | ⭐️⭐️⭐️☆ | 1.6 | 2.5 | [Ray](https://github.com/raysan5) |
-| 63 | [textures_mouse_painting](textures/textures_mouse_painting.c) | <img src="textures/textures_mouse_painting.png" alt="textures_mouse_painting" width="80"> | ⭐️⭐️⭐️☆ | 3.0 | 3.0 | [Chris Dill](https://github.com/MysteriousSpace) |
-| 64 | [textures_blend_modes](textures/textures_blend_modes.c) | <img src="textures/textures_blend_modes.png" alt="textures_blend_modes" width="80"> | ⭐️☆☆☆ | 3.5 | 3.5 | [Karlo Licudine](https://github.com/accidentalrebel) |
-| 65 | [textures_draw_tiled](textures/textures_draw_tiled.c) | <img src="textures/textures_draw_tiled.png" alt="textures_draw_tiled" width="80"> | ⭐️⭐️⭐️☆ | 3.0 | **4.2** | [Vlad Adrian](https://github.com/demizdor) |
-| 66 | [textures_polygon](textures/textures_polygon.c) | <img src="textures/textures_polygon.png" alt="textures_polygon" width="80"> | ⭐️☆☆☆ | 3.7 | 3.7 | [Chris Camacho](https://github.com/codifies) |
-| 67 | [textures_fog_of_war](textures/textures_fog_of_war.c) | <img src="textures/textures_fog_of_war.png" alt="textures_fog_of_war" width="80"> | ⭐️⭐️⭐️☆ | **4.2** | **4.2** | [Ray](https://github.com/raysan5) |
-| 68 | [textures_gif_player](textures/textures_gif_player.c) | <img src="textures/textures_gif_player.png" alt="textures_gif_player" width="80"> | ⭐️⭐️⭐️☆ | **4.2** | **4.2** | [Ray](https://github.com/raysan5) |
+| ## | example  | image  | difficulty<br>level | version<br>created | last version<br>updated | original<br>developer | Ported |
+|----|----------|--------|:-------------------:|:------------------:|:------------------:|:----------:|:----------|
+| 47 | [textures_logo_raylib](textures/textures_logo_raylib.c) | <img src="textures/textures_logo_raylib.png" alt="textures_logo_raylib" width="80"> | ⭐️☆☆☆ | 1.0 | 1.0 | [Ray](https://github.com/raysan5) | No |
+| 48 | [textures_srcrec_dstrec](textures/textures_srcrec_dstrec.c) | <img src="textures/textures_srcrec_dstrec.png" alt="textures_srcrec_dstrec" width="80"> | ⭐️⭐️⭐️☆ | 1.3 | 1.3 | [Ray](https://github.com/raysan5) | No |
+| 49 | [textures_image_drawing](textures/textures_image_drawing.c) | <img src="textures/textures_image_drawing.png" alt="textures_image_drawing" width="80"> | ⭐️⭐️☆☆ | 1.4 | 1.4 | [Ray](https://github.com/raysan5) | No |
+| 50 | [textures_image_generation](textures/textures_image_generation.c) | <img src="textures/textures_image_generation.png" alt="textures_image_generation" width="80"> | ⭐️⭐️☆☆ | 1.8 | 1.8 | [Ray](https://github.com/raysan5) | No |
+| 51 | [textures_image_loading](textures/textures_image_loading.c) | <img src="textures/textures_image_loading.png" alt="textures_image_loading" width="80"> | ⭐️☆☆☆ | 1.3 | 1.3 | [Ray](https://github.com/raysan5) | No |
+| 52 | [textures_image_processing](textures/textures_image_processing.c) | <img src="textures/textures_image_processing.png" alt="textures_image_processing" width="80"> | ⭐️⭐️⭐️☆ | 1.4 | 3.5 | [Ray](https://github.com/raysan5) | No |
+| 53 | [textures_image_text](textures/textures_image_text.c) | <img src="textures/textures_image_text.png" alt="textures_image_text" width="80"> | ⭐️⭐️☆☆ | 1.8 | **4.0** | [Ray](https://github.com/raysan5) | No |
+| 54 | [textures_to_image](textures/textures_to_image.c) | <img src="textures/textures_to_image.png" alt="textures_to_image" width="80"> | ⭐️☆☆☆ | 1.3 | **4.0** | [Ray](https://github.com/raysan5) | No |
+| 55 | [textures_raw_data](textures/textures_raw_data.c) | <img src="textures/textures_raw_data.png" alt="textures_raw_data" width="80"> | ⭐️⭐️⭐️☆ | 1.3 | 3.5 | [Ray](https://github.com/raysan5) | No |
+| 56 | [textures_particles_blending](textures/textures_particles_blending.c) | <img src="textures/textures_particles_blending.png" alt="textures_particles_blending" width="80"> | ⭐️☆☆☆ | 1.7 | 3.5 | [Ray](https://github.com/raysan5) | No |
+| 57 | [textures_npatch_drawing](textures/textures_npatch_drawing.c) | <img src="textures/textures_npatch_drawing.png" alt="textures_npatch_drawing" width="80"> | ⭐️⭐️⭐️☆ | 2.0 | 2.5 | [Jorge A. Gomes](https://github.com/overdev) | No |
+| 58 | [textures_background_scrolling](textures/textures_background_scrolling.c) | <img src="textures/textures_background_scrolling.png" alt="textures_background_scrolling" width="80"> | ⭐️☆☆☆ | 2.0 | 2.5 | [Ray](https://github.com/raysan5) | No |
+| 59 | [textures_sprite_anim](textures/textures_sprite_anim.c) | <img src="textures/textures_sprite_anim.png" alt="textures_sprite_anim" width="80"> | ⭐️⭐️☆☆ | 1.3 | 1.3 | [Ray](https://github.com/raysan5) | No |
+| 60 | [textures_sprite_button](textures/textures_sprite_button.c) | <img src="textures/textures_sprite_button.png" alt="textures_sprite_button" width="80"> | ⭐️⭐️☆☆ | 2.5 | 2.5 | [Ray](https://github.com/raysan5) | No |
+| 61 | [textures_sprite_explosion](textures/textures_sprite_explosion.c) | <img src="textures/textures_sprite_explosion.png" alt="textures_sprite_explosion" width="80"> | ⭐️⭐️☆☆ | 2.5 | 3.5 | [Ray](https://github.com/raysan5) | No |
+| 62 | [textures_bunnymark](textures/textures_bunnymark.c) | <img src="textures/textures_bunnymark.png" alt="textures_bunnymark" width="80"> | ⭐️⭐️⭐️☆ | 1.6 | 2.5 | [Ray](https://github.com/raysan5) | No |
+| 63 | [textures_mouse_painting](textures/textures_mouse_painting.c) | <img src="textures/textures_mouse_painting.png" alt="textures_mouse_painting" width="80"> | ⭐️⭐️⭐️☆ | 3.0 | 3.0 | [Chris Dill](https://github.com/MysteriousSpace) | No |
+| 64 | [textures_blend_modes](textures/textures_blend_modes.c) | <img src="textures/textures_blend_modes.png" alt="textures_blend_modes" width="80"> | ⭐️☆☆☆ | 3.5 | 3.5 | [Karlo Licudine](https://github.com/accidentalrebel) | No |
+| 65 | [textures_draw_tiled](textures/textures_draw_tiled.c) | <img src="textures/textures_draw_tiled.png" alt="textures_draw_tiled" width="80"> | ⭐️⭐️⭐️☆ | 3.0 | **4.2** | [Vlad Adrian](https://github.com/demizdor) | No |
+| 66 | [textures_polygon](textures/textures_polygon.c) | <img src="textures/textures_polygon.png" alt="textures_polygon" width="80"> | ⭐️☆☆☆ | 3.7 | 3.7 | [Chris Camacho](https://github.com/codifies) | No |
+| 67 | [textures_fog_of_war](textures/textures_fog_of_war.c) | <img src="textures/textures_fog_of_war.png" alt="textures_fog_of_war" width="80"> | ⭐️⭐️⭐️☆ | **4.2** | **4.2** | [Ray](https://github.com/raysan5) | No |
+| 68 | [textures_gif_player](textures/textures_gif_player.c) | <img src="textures/textures_gif_player.png" alt="textures_gif_player" width="80"> | ⭐️⭐️⭐️☆ | **4.2** | **4.2** | [Ray](https://github.com/raysan5) | No |
 
 ### category: text
 
 Examples using raylib text functionality, including sprite fonts loading/generation and text drawing, provided by raylib [text](../src/text.c) module.
 
-| ## | example  | image  | difficulty<br>level | version<br>created | last version<br>updated | original<br>developer |
-|----|----------|--------|:-------------------:|:------------------:|:------------------:|:----------|
-| 69 | [text_raylib_fonts](text/text_raylib_fonts.c) | <img src="text/text_raylib_fonts.png" alt="text_raylib_fonts" width="80"> | ⭐️☆☆☆ | 1.7 | 3.7 | [Ray](https://github.com/raysan5) |
-| 70 | [text_font_spritefont](text/text_font_spritefont.c) | <img src="text/text_font_spritefont.png" alt="text_font_spritefont" width="80"> | ⭐️☆☆☆ | 1.0 | 1.0 | [Ray](https://github.com/raysan5) |
-| 71 | [text_font_filters](text/text_font_filters.c) | <img src="text/text_font_filters.png" alt="text_font_filters" width="80"> | ⭐️⭐️☆☆ | 1.3 | **4.2** | [Ray](https://github.com/raysan5) |
-| 72 | [text_font_loading](text/text_font_loading.c) | <img src="text/text_font_loading.png" alt="text_font_loading" width="80"> | ⭐️☆☆☆ | 1.4 | 3.0 | [Ray](https://github.com/raysan5) |
-| 73 | [text_font_sdf](text/text_font_sdf.c) | <img src="text/text_font_sdf.png" alt="text_font_sdf" width="80"> | ⭐️⭐️⭐️☆ | 1.3 | **4.0** | [Ray](https://github.com/raysan5) |
-| 74 | [text_format_text](text/text_format_text.c) | <img src="text/text_format_text.png" alt="text_format_text" width="80"> | ⭐️☆☆☆ | 1.1 | 3.0 | [Ray](https://github.com/raysan5) |
-| 75 | [text_input_box](text/text_input_box.c) | <img src="text/text_input_box.png" alt="text_input_box" width="80"> | ⭐️⭐️☆☆ | 1.7 | 3.5 | [Ray](https://github.com/raysan5) |
-| 76 | [text_writing_anim](text/text_writing_anim.c) | <img src="text/text_writing_anim.png" alt="text_writing_anim" width="80"> | ⭐️⭐️☆☆ | 1.4 | 1.4 | [Ray](https://github.com/raysan5) |
-| 77 | [text_rectangle_bounds](text/text_rectangle_bounds.c) | <img src="text/text_rectangle_bounds.png" alt="text_rectangle_bounds" width="80"> | ⭐️⭐️⭐️⭐️ | 2.5 | **4.0** | [Vlad Adrian](https://github.com/demizdor) |
-| 78 | [text_unicode](text/text_unicode.c) | <img src="text/text_unicode.png" alt="text_unicode" width="80"> | ⭐️⭐️⭐️⭐️ | 2.5 | **4.0** | [Vlad Adrian](https://github.com/demizdor) |
-| 79 | [text_draw_3d](text/text_draw_3d.c) | <img src="text/text_draw_3d.png" alt="text_draw_3d" width="80"> | ⭐️⭐️⭐️⭐️ | 3.5 | **4.0** | [Vlad Adrian](https://github.com/demizdor) |
-| 80 | [text_codepoints_loading](text/text_codepoints_loading.c) | <img src="text/text_codepoints_loading.png" alt="text_codepoints_loading" width="80"> | ⭐️⭐️⭐️☆ | **4.2** | **4.2** | [Ray](https://github.com/raysan5) |
+| ## | example  | image  | difficulty<br>level | version<br>created | last version<br>updated | original<br>developer | Ported |
+|----|----------|--------|:-------------------:|:------------------:|:------------------:|:----------:|:----------|
+| 69 | [text_raylib_fonts](text/text_raylib_fonts.bas) | <img src="text/text_raylib_fonts.png" alt="text_raylib_fonts" width="80"> | ⭐️☆☆☆ | 1.7 | 3.7 | [Ray](https://github.com/raysan5) | Yes |
+| 70 | [text_font_spritefont](text/text_font_spritefont.c) | <img src="text/text_font_spritefont.png" alt="text_font_spritefont" width="80"> | ⭐️☆☆☆ | 1.0 | 1.0 | [Ray](https://github.com/raysan5) | No |
+| 71 | [text_font_filters](text/text_font_filters.c) | <img src="text/text_font_filters.png" alt="text_font_filters" width="80"> | ⭐️⭐️☆☆ | 1.3 | **4.2** | [Ray](https://github.com/raysan5) | No |
+| 72 | [text_font_loading](text/text_font_loading.c) | <img src="text/text_font_loading.png" alt="text_font_loading" width="80"> | ⭐️☆☆☆ | 1.4 | 3.0 | [Ray](https://github.com/raysan5) | No |
+| 73 | [text_font_sdf](text/text_font_sdf.c) | <img src="text/text_font_sdf.png" alt="text_font_sdf" width="80"> | ⭐️⭐️⭐️☆ | 1.3 | **4.0** | [Ray](https://github.com/raysan5) | No |
+| 74 | [text_format_text](text/text_format_text.c) | <img src="text/text_format_text.png" alt="text_format_text" width="80"> | ⭐️☆☆☆ | 1.1 | 3.0 | [Ray](https://github.com/raysan5) | No |
+| 75 | [text_input_box](text/text_input_box.c) | <img src="text/text_input_box.png" alt="text_input_box" width="80"> | ⭐️⭐️☆☆ | 1.7 | 3.5 | [Ray](https://github.com/raysan5) | No |
+| 76 | [text_writing_anim](text/text_writing_anim.c) | <img src="text/text_writing_anim.png" alt="text_writing_anim" width="80"> | ⭐️⭐️☆☆ | 1.4 | 1.4 | [Ray](https://github.com/raysan5) | No |
+| 77 | [text_rectangle_bounds](text/text_rectangle_bounds.c) | <img src="text/text_rectangle_bounds.png" alt="text_rectangle_bounds" width="80"> | ⭐️⭐️⭐️⭐️ | 2.5 | **4.0** | [Vlad Adrian](https://github.com/demizdor) | No |
+| 78 | [text_unicode](text/text_unicode.c) | <img src="text/text_unicode.png" alt="text_unicode" width="80"> | ⭐️⭐️⭐️⭐️ | 2.5 | **4.0** | [Vlad Adrian](https://github.com/demizdor) | No |
+| 79 | [text_draw_3d](text/text_draw_3d.c) | <img src="text/text_draw_3d.png" alt="text_draw_3d" width="80"> | ⭐️⭐️⭐️⭐️ | 3.5 | **4.0** | [Vlad Adrian](https://github.com/demizdor) | No |
+| 80 | [text_codepoints_loading](text/text_codepoints_loading.c) | <img src="text/text_codepoints_loading.png" alt="text_codepoints_loading" width="80"> | ⭐️⭐️⭐️☆ | **4.2** | **4.2** | [Ray](https://github.com/raysan5) | No |
 
 ### category: models
 
