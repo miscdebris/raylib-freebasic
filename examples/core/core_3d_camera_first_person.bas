@@ -10,8 +10,8 @@
 *   Copyright (c) 2015-2024 Ramon Santamaria (@raysan5)
 *
 *   translated to FreeBASIC by:
-*     Copyright © 2021 glasyalabolas (MIT)
-*     Copyright © 2024 miscdebris (MIT)
+*     Copyright (c) 2021 glasyalabolas (MIT)
+*     Copyright (c) 2024 miscdebris (MIT)
 *
 ********************************************************************************************'/
 
