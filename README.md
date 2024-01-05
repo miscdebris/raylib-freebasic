@@ -53,5 +53,5 @@ for more info about building raylib visit [official wiki](https://github.com/ray
 and for raygui check [official repo](https://github.com/raysan5/raygui#building)
 
 ## examples
-[examples][https://github.com/WIITD/raylib-freebasic/tree/main/examples]
+[examples](https://github.com/WIITD/raylib-freebasic/tree/main/examples)
 simple game i wrote that uses [raylib-freebasic](https://github.com/WIITD/asteroid_field/tree/raylib-freebasic)
