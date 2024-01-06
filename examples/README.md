@@ -180,7 +180,7 @@ Examples using raylib shaders functionality, including shaders loading, paramete
 
 ### category: audio
 
-Examples using raylib audio functionality, including sound/music loading and playing. This functionality is provided by raylib [raudio](../src/raudio.c) module. Note this module can be used standalone independently of raylib, check [raudio_standalone](others/raudio_standalone.c) example.
+Examples using raylib audio functionality, including sound/music loading and playing. This functionality is provided by raylib raudio.
 
 | ## | example  | image  | difficulty<br>level | version<br>created | last version<br>updated | original<br>developer | Ported |
 |----|----------|--------|:-------------------:|:------------------:|:------------------:|:----------:|:----------|
@@ -188,6 +188,10 @@ Examples using raylib audio functionality, including sound/music loading and pla
 | 119 | [audio_music_stream](audio/audio_music_stream.c) | <img src="audio/audio_music_stream.png" alt="audio_music_stream" width="80"> | ⭐️☆☆☆ | 1.3 | **4.2** | [Ray](https://github.com/raysan5) |  No |
 | 120 | [audio_raw_stream](audio/audio_raw_stream.c) | <img src="audio/audio_raw_stream.png" alt="audio_raw_stream" width="80"> | ⭐️⭐️⭐️☆ | 1.6 | **4.2** | [Ray](https://github.com/raysan5) |  No |
 | 121 | [audio_sound_loading](audio/audio_sound_loading.c) | <img src="audio/audio_sound_loading.png" alt="audio_sound_loading" width="80"> | ⭐️☆☆☆ | 1.1 | 3.5 | [Ray](https://github.com/raysan5) | No |
+| 122 | [audio_mixed_processor](audio/audio_mixed_processor.bas) | <img src="audio/audio_mixed_processor.png" alt="audio_mixed_processor" width="80"> | ⭐️☆☆☆ | 1.1 | 3.5 | [Ray](https://github.com/raysan5) | Yes |
+| 123 | [audio_multichannel_sound](audio/audio_multichannel_sound.c) | <img src="audio/audio_multichannel_sound.png" alt="audio_multichannel_sound" width="80"> | ⭐️☆☆☆ | 1.1 | 3.5 | [Ray](https://github.com/raysan5) | No |
+| 124 | [audio_sound_multi](audio/audio_sound_multi.c) | <img src="audio/audio_sound_multi.png" alt="audio_sound_multi" width="80"> | ⭐️☆☆☆ | 1.1 | 3.5 | [Ray](https://github.com/raysan5) | No |
+| 125 | [audio_stream_effects](audio/audio_stream_effects.c) | <img src="audio/audio_stream_effects.png" alt="audio_stream_effects" width="80"> | ⭐️☆☆☆ | 1.1 | 3.5 | [Ray](https://github.com/raysan5) | No |
 
 ### category: others
 
