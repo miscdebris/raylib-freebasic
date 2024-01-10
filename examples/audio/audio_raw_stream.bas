@@ -9,6 +9,10 @@
 *
 *   Copyright (c) 2015-2019 Ramon Santamaria (@raysan5) and James Hofmann (@triplefox)
 *
+*   translated to FreeBASIC by:
+*     Copyright (c) 2021 glasyalabolas (MIT)
+*     Copyright (c) 2024 miscdebris (MIT)
+*
 ********************************************************************************************'/
 
 #include "raylib.bi"
