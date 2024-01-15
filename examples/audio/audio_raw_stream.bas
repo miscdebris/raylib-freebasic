@@ -16,7 +16,6 @@
 ********************************************************************************************'/
 
 #include "raylib.bi"
-#include "crt.bi"        '' Required for: memcpy()
 
 #define MAX_SAMPLES               512
 #define MAX_SAMPLES_PER_UPDATE   4096
