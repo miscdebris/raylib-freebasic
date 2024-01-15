@@ -190,7 +190,7 @@ Examples using raylib audio functionality, including sound/music loading and pla
 | 121 | [audio_sound_loading](audio/audio_sound_loading.bas) | <img src="audio/audio_sound_loading.png" alt="audio_sound_loading" width="80"> | ⭐️☆☆☆ | 1.1 | 3.5 | [Ray](https://github.com/raysan5) | Yes |
 | 122 | [audio_mixed_processor](audio/audio_mixed_processor.bas) | <img src="audio/audio_mixed_processor.png" alt="audio_mixed_processor" width="80"> | ⭐️☆☆☆ | 1.1 | 3.5 | [Ray](https://github.com/raysan5) | Yes |
 | 123 | [audio_sound_multi](audio/audio_sound_multi.bas) | <img src="audio/audio_sound_multi.png" alt="audio_sound_multi" width="80"> | ⭐️☆☆☆ | 1.1 | 3.5 | [Ray](https://github.com/raysan5) | Yes |
-| 124 | [audio_stream_effects](audio/audio_stream_effects.c) | <img src="audio/audio_stream_effects.png" alt="audio_stream_effects" width="80"> | ⭐️☆☆☆ | 1.1 | 3.5 | [Ray](https://github.com/raysan5) | No |
+| 124 | [audio_stream_effects](audio/audio_stream_effects.c) | <img src="audio/audio_stream_effects.png" alt="audio_stream_effects" width="80"> | ⭐️☆☆☆ | 1.1 | 3.5 | [Ray](https://github.com/raysan5) | Yes |
 
 ### category: others
 
