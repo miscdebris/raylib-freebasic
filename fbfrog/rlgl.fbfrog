@@ -1,0 +1,21 @@
+-target nodos
+
+-replacements raylib.replacements
+
+-removedefine RLAPI
+
+-fbfroginclude stdbool.h
+-removeinclude stdbool.h
+
+-rename_ end
+
+# Needed because RAYMATH_STANDALONE used. Unlike C, allows raymath.bi to be included before raylib.bi
+-ifndefdecl Vector2
+-ifndefdecl Vector3
+-ifndefdecl Quaternion
+-ifndefdecl Matrix
+-ifndefdecl TRACELOG
+-ifndefdecl RL_MALLOC
+-ifndefdecl RL_CALLOC
+-ifndefdecl RL_REALLOC
+-ifndefdecl RL_FREE

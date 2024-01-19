@@ -1,0 +1,4 @@
+# PI is defined as single in raylib.h and double in raymath.h, fix
+# in raylib 5.0 PI is defined as single in both header files
+# convert c: #define PI 3.14159265358979323846f
+# to c:      #define PI 3.14159265358979323846
