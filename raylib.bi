@@ -5,6 +5,8 @@
 
 '' The following symbols have been renamed:
 ''     struct Color => RLColor
+''     Rectangle.width => Rectangle.width_
+''     Rectangle.heigth => Rectangle.heigth_
 
 #inclib "raylib"
 
