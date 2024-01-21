@@ -39,7 +39,7 @@ Examples using raylib core platform functionality like window creation, inputs, 
 | 13 | [core_3d_camera_free](core/core_3d_camera_free.c) | <img src="core/core_3d_camera_free.png" alt="core_3d_camera_free" width="80"> | ⭐️☆☆☆ | 1.3 | 1.3 | [Ray](https://github.com/raysan5) | Yes |
 | 14 | [core_3d_camera_first_person](core/core_3d_camera_first_person.bas) | <img src="core/core_3d_camera_first_person.png" alt="core_3d_camera_first_person" width="80"> | ⭐️⭐️☆☆ | 1.3 | 1.3 | [Ray](https://github.com/raysan5) | Yes |
 | 15 | [core_3d_camera:split_screen](core/core_3d_camera_split_screen.c) | <img src="core/core_3d_camera_split_screen.png" alt="core_3d_camera_split_screen" width="80"> | ⭐️⭐️⭐️⭐️ | 3.7 | **4.0** | [Jeffery Myers](https://github.com/JeffM2501) | No |
-| 16 | [core_3d_picking](core/core_3d_picking.c) | <img src="core/core_3d_picking.png" alt="core_3d_picking" width="80"> | ⭐️⭐️☆☆ | 1.3 | **4.0** | [Ray](https://github.com/raysan5) | No |
+| 16 | [core_3d_picking](core/core_3d_picking.c) | <img src="core/core_3d_picking.png" alt="core_3d_picking" width="80"> | ⭐️⭐️☆☆ | 1.3 | **4.0** | [Ray](https://github.com/raysan5) | Yes |
 | 17 | [core_world_screen](core/core_world_screen.c) | <img src="core/core_world_screen.png" alt="core_world_screen" width="80"> | ⭐️⭐️☆☆ | 1.3 | 1.4 | [Ray](https://github.com/raysan5) | No |
 | 18 | [core_custom_logging](core/core_custom_logging.c) | <img src="core/core_custom_logging.png" alt="core_custom_logging" width="80"> | ⭐️⭐️⭐️☆ | 2.5 | 2.5 | [Pablo Marcos Oltra](https://github.com/pamarcos) | No |
 | 19 | [core_window_flags](core/core_window_flags.c) | <img src="core/core_window_flags.png" alt="core_window_flags" width="80"> | ⭐️⭐️⭐️☆ | 3.5 | 3.5 | [Ray](https://github.com/raysan5) | No |
