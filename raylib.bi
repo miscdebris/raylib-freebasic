@@ -382,7 +382,18 @@ end type
 type BoundingBox
 	min as Vector3
 	max as Vector3
+  
+  declare constructor()
+  declare constructor(min as Vector3, max as Vector3)
 end type
+
+constructor BoundingBox()
+end constructor
+
+constructor BoundingBox(min as Vector3, max as Vector3)
+  this.min = min
+  this.max = max
+end constructor
 
 type Wave
 	frameCount as ulong
