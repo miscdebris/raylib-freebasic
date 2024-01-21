@@ -29,7 +29,7 @@ Examples using raylib core platform functionality like window creation, inputs, 
 | 03 | [core_input_mouse](core/core_input_mouse.bas) | <img src="core/core_input_mouse.png" alt="core_input_mouse" width="80"> | ⭐️☆☆☆ | 1.0 | **4.0** | [Ray](https://github.com/raysan5) | Yes |
 | 04 | [core_input_mouse_wheel](core/core_input_mouse_wheel.bas) | <img src="core/core_input_mouse_wheel.png" alt="core_input_mouse_wheel" width="80"> | ⭐️☆☆☆ | 1.1 | 1.3 | [Ray](https://github.com/raysan5) | Yes |
 | 05 | [core_input_gamepad](core/core_input_gamepad.c) | <img src="core/core_input_gamepad.png" alt="core_input_gamepad" width="80"> | ⭐️☆☆☆ | 1.1 | **4.2** | [Ray](https://github.com/raysan5) | No |
-| 06 | [core_input_multitouch](core/core_input_multitouch.c) | <img src="core/core_input_multitouch.png" alt="core_input_multitouch" width="80"> | ⭐️☆☆☆ | 2.1 | 2.5 | [Berni](https://github.com/Berni8k) | No |
+| 06 | [core_input_multitouch](core/core_input_multitouch.bas) | <img src="core/core_input_multitouch.png" alt="core_input_multitouch" width="80"> | ⭐️☆☆☆ | 2.1 | 2.5 | [Berni](https://github.com/Berni8k) | Yes |
 | 07 | [core_input_gestures](core/core_input_gestures.c) | <img src="core/core_input_gestures.png" alt="core_input_gestures" width="80"> | ⭐️⭐️☆☆ | 1.4 | **4.2** | [Ray](https://github.com/raysan5) | No |
 | 08 | [core_2d_camera](core/core_2d_camera.bas) | <img src="core/core_2d_camera.png" alt="core_2d_camera" width="80"> | ⭐️⭐️☆☆ | 1.5 | 3.0 | [Ray](https://github.com/raysan5) | Yes |
 | 09 | [core_2d_camera_mouse_zoom](core/core_2d_camera_mouse_zoom.bas) | <img src="core/core_2d_camera_mouse_zoom.png" alt="core_2d_camera_mouse_zoom" width="80"> | ⭐️⭐️☆☆ | **4.2** | **4.2** | [Jeffery Myers](https://github.com/JeffM2501) | Yes |
