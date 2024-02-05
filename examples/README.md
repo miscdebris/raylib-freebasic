@@ -46,7 +46,7 @@ Examples using raylib core platform functionality like window creation, inputs, 
 | 20 | [core_window_letterbox](core/core_window_letterbox.c) | <img src="core/core_window_letterbox.png" alt="core_window_letterbox" width="80"> | ⭐️⭐️☆☆ | 2.5 | **4.0** | [Anata](https://github.com/anatagawa) | No |
 | 21 | [core_window_should_close](core/core_window_should_close.c) | <img src="core/core_window_should_close.png" alt="core_window_should_close" width="80"> | ⭐️☆☆☆ | **4.2** | **4.2** | [Ray](https://github.com/raysan5) | No |
 | 22 | [core_drop_files](core/core_drop_files.bas) | <img src="core/core_drop_files.png" alt="core_drop_files" width="80"> | ⭐️⭐️☆☆ | 1.3 | **4.2** | [Ray](https://github.com/raysan5) | Yes |
-| 23 | [core_random_values](core/core_random_values.c) | <img src="core/core_random_values.png" alt="core_random_values" width="80"> | ⭐️☆☆☆ | 1.1 | 1.1 | [Ray](https://github.com/raysan5) | No |
+| 23 | [core_random_values](core/core_random_values.bas) | <img src="core/core_random_values.png" alt="core_random_values" width="80"> | ⭐️☆☆☆ | 1.1 | 1.1 | [Ray](https://github.com/raysan5) | Yes |
 | 24 | [core_storage_values](core/core_storage_values.c) | <img src="core/core_storage_values.png" alt="core_storage_values" width="80"> | ⭐️⭐️☆☆ | 1.4 | **4.2** | [Ray](https://github.com/raysan5) | No |
 | 25 | [core_vr_simulator](core/core_vr_simulator.c) | <img src="core/core_vr_simulator.png" alt="core_vr_simulator" width="80"> | ⭐️⭐️⭐️☆ | 2.5 | **4.0** | [Ray](https://github.com/raysan5) | No |
 | 26 | [core_loading_thread](core/core_loading_thread.c) | <img src="core/core_loading_thread.png" alt="core_loading_thread" width="80"> | ⭐️⭐️⭐️☆ | 2.5 | 3.0 | [Ray](https://github.com/raysan5) | No |
